@@ -77,14 +77,14 @@ Berikut adalah keterangan dari setiap kolom yang terdapat di dalam dataset karya
 
 **Tools yang digunakan:**
 
-- Python untuk pengolahan data dan pemodelan machine learning.
+- Python (Versi 3.11.7) untuk pengolahan data dan pemodelan machine learning.
 - Pandas dan NumPy untuk manipulasi data.
 - Scikit-learn untuk preprocessing, pelatihan, dan evaluasi model.
 - Matplotlib dan Seaborn untuk visualisasi data.
 - Joblib untuk menyimpan dan memuat model machine learning.
 - PostgreSQL untuk menyimpan data dashboard.
-- Metabase untuk membangun business dashboard.
 - Docker untuk menjalankan PostgreSQL dan Metabase.
+- **Metabase Open Source Edition (Versi v0.49.8)** untuk membangun business dashboard.
 
 **Setup environment:**
 
