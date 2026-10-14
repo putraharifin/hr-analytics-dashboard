@@ -34,6 +34,47 @@ Hasil analisis dan prediksi digunakan sebagai alat bantu pengambilan keputusan, 
 
 **Link** https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
 
+### Kamus Data (Data Dictionary)
+
+Berikut adalah keterangan dari setiap kolom yang terdapat di dalam dataset karyawan Jaya Jaya Maju:
+
+* **EmployeeId:** Identitas unik atau kode pengenal setiap karyawan.
+* **Attrition:** Status apakah karyawan keluar dari perusahaan atau bertahan (0 = Tidak Keluar, 1 = Keluar).
+* **Age:** Usia dari karyawan (dalam satuan tahun).
+* **BusinessTravel:** Tingkat frekuensi perjalanan dinas yang disyaratkan oleh pekerjaan tersebut.
+* **DailyRate:** Upah atau gaji harian karyawan.
+* **Department:** Departemen atau divisi tempat karyawan bekerja.
+* **DistanceFromHome:** Jarak dari rumah karyawan menuju tempat kerja (dalam satuan kilometer).
+* **Education:** Tingkat pendidikan terakhir karyawan (1 = Di Bawah Perguruan Tinggi, 2 = Diploma/Kuliah, 3 = Sarjana/S1, 4 = Magister/S2, 5 = Doktor/S3).
+* **EducationField:** Bidang studi atau latar belakang pendidikan karyawan.
+* **EnvironmentSatisfaction:** Tingkat kepuasan karyawan terhadap lingkungan kerja (1 = Rendah, 2 = Sedang, 3 = Tinggi, 4 = Sangat Tinggi).
+* **Gender:** Jenis kelamin karyawan.
+* **HourlyRate:** Upah atau gaji per jam karyawan.
+* **JobInvolvement:** Tingkat keterlibatan dan kepedulian karyawan terhadap pekerjaannya (1 = Rendah, 2 = Sedang, 3 = Tinggi, 4 = Sangat Tinggi).
+* **JobLevel:** Level atau tingkatan jabatan karyawan di perusahaan (skala 1 sampai 5).
+* **JobRole:** Posisi pekerjaan atau peran spesifik karyawan di perusahaan.
+* **JobSatisfaction:** Tingkat kepuasan karyawan terhadap pekerjaan yang dilakukannya (1 = Rendah, 2 = Sedang, 3 = Tinggi, 4 = Sangat Tinggi).
+* **MaritalStatus:** Status pernikahan karyawan.
+* **MonthlyIncome:** Jumlah pendapatan atau gaji bulanan karyawan.
+* **MonthlyRate:** Tarif atau nilai rata-rata bulanan karyawan.
+* **NumCompaniesWorked:** Jumlah perusahaan tempat karyawan pernah bekerja sebelum bergabung dengan perusahaan saat ini.
+* **Over18:** Keterangan apakah karyawan sudah berusia di atas 18 tahun.
+* **OverTime:** Keterangan apakah karyawan melakukan kerja lembur (Yes / No).
+* **PercentSalaryHike:** Persentase kenaikan gaji yang diterima karyawan pada tahun lalu.
+* **PerformanceRating:** Penilaian performa kerja karyawan (1 = Rendah, 2 = Baik, 3 = Sangat Baik, 4 = Luar Biasa).
+* **RelationshipSatisfaction:** Tingkat kepuasan karyawan terhadap hubungan antarkaryawan di tempat kerja (1 = Rendah, 2 = Sedang, 3 = Tinggi, 4 = Sangat Tinggi).
+* **StandardHours:** Standar jam kerja yang ditetapkan oleh perusahaan.
+* **StockOptionLevel:** Tingkat opsi kepemilikan saham perusahaan yang diberikan kepada karyawan (skala 0 sampai 3).
+* **TotalWorkingYears:** Total akumulasi masa kerja karyawan sepanjang karier profesionalnya (dalam satuan tahun).
+* **TrainingTimesLastYear:** Jumlah pelatihan kerja yang diikuti oleh karyawan pada tahun lalu.
+* **WorkLifeBalance:** Tingkat keseimbangan antara kehidupan kerja dan kehidupan pribadi karyawan (1 = Rendah, 2 = Baik, 3 = Sangat Baik, 4 = Luar Biasa).
+* **YearsAtCompany:** Lama waktu karyawan telah bekerja di perusahaan saat ini (dalam satuan tahun).
+* **YearsInCurrentRole:** Lama waktu karyawan telah menempati posisi jabatan yang sama saat ini (dalam satuan tahun).
+* **YearsSinceLastPromotion:** Lama waktu sejak terakhir kali karyawan mendapatkan promosi jabatan (dalam satuan tahun).
+* **YearsWithCurrManager:** Lama waktu karyawan bekerja di bawah arahan manajer yang sama saat ini (dalam satuan tahun).
+
+
+
 **Tools yang digunakan:**
 
 - Python untuk pengolahan data dan pemodelan machine learning.
